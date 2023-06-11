@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.5",
+    "mongoose-referrence-validator": "^1.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "socket.io": "^4.5.1",
+    "twilio": "^3.77.3"
+  },
+  "name": "server-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
