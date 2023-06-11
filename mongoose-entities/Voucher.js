@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const TrustedComms = require("twilio/lib/rest/preview/TrustedComms");
+
 
 const VoucherSchema = new mongoose.Schema({
     voucherName: {
